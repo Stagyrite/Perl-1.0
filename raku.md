@@ -143,39 +143,23 @@ sub MAIN($input) {
 
 **Q: I read your bio on [Twitter](https://twitter.com/effconia "Maciej Matiaszowski (@effconia) / X"). Do the emojis have something in common with Perl?**
 
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⚛🍅⚛🍅🍅⚛🍅🍅🍅⚛🍅🍅🍅🍅👺👺👺👺
-
 **A:** Indeed, those are a result of the following Raku program.
 
+Indeed, those are a result of the following Raku program.
 ```
 say "⬛" x 73 ~ (for 1..4 -> $i { "⚛" ~ "🍅" x $i }) ~ "👺" x 4;
 ```
-
+⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⬛ ⚛ 🍅 ⚛ 🍅 🍅 ⚛ 🍅 🍅 🍅 ⚛ 🍅 🍅 🍅 🍅 👺 👺 👺 👺
 Let's examine all the parts. First, it prints a black square emoji 73 times. The black or graphite colour should resemble GitHub. The graphite colour encourages writing, and I do mean programming by that. 73 is 80% of 91, and the total number of emoji characters is 91. The widely known 80-20 rule, or the Pareto Principle, was applied.
-
 The second part contains a loop (for 1..4 -> $i { "⚛" ~ "🍅" x $i }). It produces a list of 4 atoms in 10 tomatoes. Note that the "tomato" word consists only of characters from the "atom" word. The idea is taken from a modern painting. Atom can mean atheism, and I read a lot about atheism.
-
 The last part 👺 is a Japanese goblin. Together with the atom emoji, it can represent atheism. It also means fourfaced, as one can be doublefaced, triplefaced, or even fourfaced. This idea was taken from a discussion about a modern painting.
-
 By not sticking to the constants, one can generate more bios. One last thing to do would be to remove the whitespaces.
-
-A shortened version of this bio is available on every one of my GitHub pages. ⬛⚛🍅👺 works usually as a footer but also as a header in the case of [my GitHub profile](https://github.com/Stagyrite/Stagyrite "Stagyrite/stagyrite: 🧪 @Stagyrite profile").
-
-Let's consider a fictitious bio of Aimdugud, a bird god in the shadow of the comet. I'd replace black squares with comets, and goblins with birds.
-
+A shortened version of this bio is available on all my GitHub pages. ⬛⚛🍅👺 works usually as a footer but also as a header in the case of [my GitHub profile](https://github.com/Stagyrite/Stagyrite "Stagyrite/stagyrite: 🧪 @Stagyrite profile").
+Let's consider an alternative bio with a different arrangement ⚛⬛👺🍅. Atom would stand for atheism and black square for GitHub and programming. The Japanese goblin would represent my version of the [Perl 1](Perl-1.0 "Stagyrite/Perl-1.0: 🐪 Perl Kit, Version 1.0") compiler and [OpenRoguelike](openroguelike "Stagyrite/openroguelike: The beginning of something that might end as a roguelike development library. But we'll see."). The tomato would represent an interest in compilers that is quite the traditional one. A further compiler worth knowing is Perl 5 and I want to read in German about it.
 ```
-say "☄️" x 73 ~ (for 1..4 -> $i { "⚛" ~ "🍅" x $i }) ~ "🐦" x 4;
+say "⚛" x 73 ~ (for 1..4 -> $i { "⬛" ~ "👺" x $i }) ~ "🍅" x 4;
 ```
-
-☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️
-☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️
-☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️
-☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️☄️
-⚛🍅⚛🍅🍅⚛🍅🍅🍅⚛🍅🍅🍅🍅🐦🐦🐦🐦
+⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⚛ ⬛👺 ⬛👺👺 ⬛👺👺👺 ⬛👺👺👺👺 🍅 🍅 🍅 🍅
 
 ⬛⚛🍅👺
 
